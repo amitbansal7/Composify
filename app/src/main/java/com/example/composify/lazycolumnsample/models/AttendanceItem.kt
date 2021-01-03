@@ -1,4 +1,4 @@
-package com.example.composify.locoEarnings.models
+package com.example.composify.lazycolumnsample.models
 
 data class AttendanceItem(
     val date: Int,

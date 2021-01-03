@@ -1,4 +1,4 @@
-package com.example.composify.locoEarnings.ui
+package com.example.composify.lazycolumnsample.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,22 +12,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.platform.setContent
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.navigation.findNavController
-import com.example.composify.locoEarnings.models.EarningsItem
-import com.example.composify.locoEarnings.models.ListItem
-import com.example.composify.locoEarnings.repositories.EarningsRepository
+import com.example.composify.lazycolumnsample.models.EarningsItem
+import com.example.composify.lazycolumnsample.models.ListItem
+import com.example.composify.lazycolumnsample.repositories.EarningsRepository
 import com.example.composify.spotify.ui.AppThemeState
 import com.example.composify.spotify.ui.ComposifyTheme
 import com.example.composify.spotify.ui.SystemUiController
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import androidx.paging.LoadState
 import androidx.paging.compose.*
 import androidx.paging.compose.collectAsLazyPagingItems
 

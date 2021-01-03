@@ -1,8 +1,8 @@
-package com.example.composify.locoEarnings.ui
+package com.example.composify.lazycolumnsample.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.composify.locoEarnings.repositories.EarningsRepository
+import com.example.composify.lazycolumnsample.repositories.EarningsRepository
 
 class EarningsViewModelProviderFactory(private val newsRepository: EarningsRepository) :
     ViewModelProvider.Factory {

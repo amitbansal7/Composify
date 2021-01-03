@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".locoEarnings.ui.EarningsActivity"
+            android:name=".lazycolumnsample.ui.EarningsActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.Composify.NoActionBar">
             <intent-filter>

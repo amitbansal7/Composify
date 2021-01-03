@@ -1,7 +1,7 @@
 package com.amitbansal.earningsapp.api
 
-import com.example.composify.locoEarnings.models.AttendanceResponse
-import com.example.composify.locoEarnings.models.EarningsItem
+import com.example.composify.lazycolumnsample.models.AttendanceResponse
+import com.example.composify.lazycolumnsample.models.EarningsItem
 import com.amitbansal.earningsapp.util.Constants.AUTH_TOKEN
 import retrofit2.Response
 import retrofit2.http.GET

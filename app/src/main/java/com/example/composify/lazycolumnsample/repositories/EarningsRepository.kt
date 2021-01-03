@@ -1,8 +1,8 @@
-package com.example.composify.locoEarnings.repositories
+package com.example.composify.lazycolumnsample.repositories
 
 import com.amitbansal.earningsapp.api.RetrofitInstance
-import com.example.composify.locoEarnings.models.AttendanceResponse
-import com.example.composify.locoEarnings.models.EarningsItem
+import com.example.composify.lazycolumnsample.models.AttendanceResponse
+import com.example.composify.lazycolumnsample.models.EarningsItem
 import retrofit2.Response
 
 class EarningsRepository {

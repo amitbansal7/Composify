@@ -1,8 +1,8 @@
-package com.example.composify.locoEarnings
+package com.example.composify.lazycolumnsample
 
 import androidx.paging.PagingSource
-import com.example.composify.locoEarnings.models.EarningsItem
-import com.example.composify.locoEarnings.repositories.EarningsRepository
+import com.example.composify.lazycolumnsample.models.EarningsItem
+import com.example.composify.lazycolumnsample.repositories.EarningsRepository
 
 class EarningItemSource(private val earningsRepository: EarningsRepository) :
   PagingSource<Int, EarningsItem>() {
